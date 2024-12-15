@@ -10,6 +10,7 @@ Gamemaker-RPC is a Python script that updates your **Discord Rich Presence** wit
 
 ## Requirements :
 
+- **Python** (obviously)
 - **PyPresence** => The RPC Client (to interact with Discord)
 - **PSUtil** => To verify if **gamemaker.exe** is running
 - **PyGetWindow** => To retrieve the title of the active window (to check what project is open)
@@ -17,8 +18,10 @@ Gamemaker-RPC is a Python script that updates your **Discord Rich Presence** wit
 ---
 
 ## Installation
-
 You need to install the required libraries by running the following command:
 
 ```bash
 pip install psutil pypresence pygetwindow
+```
+
+Then you can modify the 'config.json' file and finally use 'launcher.pyw' as the launcher.
