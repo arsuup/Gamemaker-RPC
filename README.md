@@ -24,4 +24,4 @@ You need to install the required libraries by running the following command:
 pip install psutil pypresence pygetwindow
 ```
 
-Then you can modify the 'config.json' file and finally use 'launcher.pyw' as the launcher.
+Then you can put the contents of "/src" in the gamemaker folder
